@@ -1,0 +1,106 @@
+:root{
+    --color-text-ps5: #A9C7C7;
+    --color-text-Editions: #FFFFFF;
+    --color-text-Editions-2: #8C96A0;
+    --color-buy: #8856D9;
+    --color-backround: #1C2023;
+}
+.section-ragnarok{
+    background-color: var(--color-backround);
+    width: 100%;
+}
+.section-editions-and-dualsense{
+    background-color: var(--color-backround);
+}
+.Editions{
+  text-align: center;
+}
+.buy-game {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 275px;
+  margin-left: 275px;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    background: linear-gradient(180deg, #141615 0%, #1c2023 100%);
+    &-title{
+        text-align: center;
+        color: var(--color-text-Editions);
+    }
+}
+.PS5{
+    text-align: center;
+    color: var(--color-text-ps5)
+}
+.price{
+    text-align: right;
+    color: var(--color-text-Editions);
+}
+.card-img-top{
+    padding: 17px;
+}
+.btn{
+    color: var(--color-text-Editions);
+    background-color: var(--color-buy);
+    padding-top: 0px;
+    margin-left: 218px;
+    font-size: 15px;
+    width: 97px;
+    height: 29px;
+}
+.Editions{
+    color: var(--color-text-Editions);
+}
+.dualsense{
+    text-align: center;
+    color: var(--color-text-Editions);
+    font-size: 40px;
+    margin-top: 53px;
+}
+.ragnarok-PS-text{
+    color: var(--color-text-Editions-2);
+    font-size: 18px;
+    width: 420px;
+    height: 53.73px;
+    margin-left: 495px;
+    &-two{
+    color: var(--color-text-Editions-2);
+    font-size: 18px;
+    width: 420px;
+    height: 80.6px;
+    margin-left: 495px;
+    }
+}
+.ragnarok-PS{
+    display: flex;
+    
+}
+.playstation{
+    margin-left: 152px;
+}
+.xz{
+    padding-top: 65px;
+    margin-top: 20px;
+    display: block;
+}
+.ragnarok-playstation{
+    padding-top: 20px;
+}
+.price-{
+    display: flex;
+        &playstation{
+            font-size: 30px;
+            margin-right: 33px;
+            margin-left: 495px; 
+            color: var(--color-text-Editions);
+                &-buy{
+                border-radius: 6px;
+                height: 46.77px;
+                width: 274px;
+                color: var(--color-text-Editions);
+                background-color:#FF4136;
+                }
+        }
+}
